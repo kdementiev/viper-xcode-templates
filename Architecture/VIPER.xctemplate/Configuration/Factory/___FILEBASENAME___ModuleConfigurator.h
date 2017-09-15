@@ -6,16 +6,16 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAMEASIDENTIFIER___ModuleProtocol.h"
+#import "___VARIABLE_productName___ModuleProtocol.h"
 
 
-@protocol ___FILEBASENAMEASIDENTIFIER___ViewProtocol;
+@protocol ___VARIABLE_productName___ViewProtocol;
 
 
-@interface ___FILEBASENAMEASIDENTIFIER___ModuleContainer : NSObject
+@interface ___VARIABLE_productName___ModuleContainer : NSObject
 
 @property (nonatomic) UIViewController *moduleViewController;
-@property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___ModuleProtocol> moduleInterface;
+@property (nonatomic, weak) id<___VARIABLE_productName___ModuleProtocol> moduleInterface;
 
 @end
 
@@ -23,13 +23,13 @@
  * @class 
  * @discussion
  */
-@interface ___FILEBASENAMEASIDENTIFIER___ModuleConfigurator : NSObject
+@interface ___VARIABLE_productName___ModuleConfigurator : NSObject
 
 /**
  *  @desc Creates and set-up all VIPER components for this module.
  *  @param delegate Instance that implements SCChatModuleDelegate protocol.
  *  @return Module container that allows you to controll another module.
  */
-+ (___FILEBASENAMEASIDENTIFIER___ModuleContainer *)configureteModuleWithView:(id<___FILEBASENAMEASIDENTIFIER___ViewProtocol>)view delegate:(id<___FILEBASENAMEASIDENTIFIER___ModuleDelegate>)delegate;
++ (___VARIABLE_productName___ModuleContainer *)configureteModuleWithView:(id<___VARIABLE_productName___ViewProtocol>)view delegate:(id<___VARIABLE_productName___ModuleDelegate>)delegate;
 
 @end

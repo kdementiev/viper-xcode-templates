@@ -10,14 +10,14 @@
 
 
 // Events from view
-@protocol ___FILEBASENAMEASIDENTIFIER___ViewDelegate <NSObject>
+@protocol ___VARIABLE_productName___ViewDelegate <NSObject>
 
 @end
 
 // Provides ability to controll view
-@protocol ___FILEBASENAMEASIDENTIFIER___ViewProtocol <NSObject>
+@protocol ___VARIABLE_productName___ViewProtocol <NSObject>
 
 // Strong because we need to own output to support our structure.
-@property (nonatomic, strong) id<___FILEBASENAMEASIDENTIFIER___ViewDelegate> output;
+@property (nonatomic, strong) id<___VARIABLE_productName___ViewDelegate> output;
 
 @end

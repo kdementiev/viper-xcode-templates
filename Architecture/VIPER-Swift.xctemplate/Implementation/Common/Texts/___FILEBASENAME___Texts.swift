@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName___RouterProtocol: class {
-    
+struct ___VARIABLE_productName___ {
+    static let constant = ""
 }

@@ -8,24 +8,24 @@
 
 #import <Foundation/Foundation.h>
 
-#import "___FILEBASENAMEASIDENTIFIER___ViewProtocol.h"
-#import "___FILEBASENAMEASIDENTIFIER___InteractorProtocol.h"
-#import "___FILEBASENAMEASIDENTIFIER___RouterProtocol.h"
-#import "___FILEBASENAMEASIDENTIFIER___ModuleProtocol.h"
+#import "___VARIABLE_productName___ViewProtocol.h"
+#import "___VARIABLE_productName___InteractorProtocol.h"
+#import "___VARIABLE_productName___RouterProtocol.h"
+#import "___VARIABLE_productName___ModuleProtocol.h"
 
 
-@protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocol <___FILEBASENAMEASIDENTIFIER___ViewDelegate, ___FILEBASENAMEASIDENTIFIER___InteractorDelegate, ___FILEBASENAMEASIDENTIFIER___ModuleProtocol>
+@protocol ___VARIABLE_productName___PresenterProtocol <___VARIABLE_productName___ViewDelegate, ___VARIABLE_productName___InteractorDelegate, ___VARIABLE_productName___ModuleProtocol>
 
 // Offers interfce to store information or events outside this module.
-@property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___ModuleDelegate> output;
+@property (nonatomic, weak) id<___VARIABLE_productName___ModuleDelegate> output;
 
 // View owns presenter because of UIKit, accourding to this we use 'weak'.
-@property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___ViewProtocol> view;
+@property (nonatomic, weak) id<___VARIABLE_productName___ViewProtocol> view;
 
 // Contains bussiness logic.
-@property (nonatomic) id<___FILEBASENAMEASIDENTIFIER___InteractorProtocol> interactor;
+@property (nonatomic) id<___VARIABLE_productName___InteractorProtocol> interactor;
 
 // Allows to perform routing between modules (Screens)
-@property (nonatomic) id<___FILEBASENAMEASIDENTIFIER___RouterProtocol> router;
+@property (nonatomic) id<___VARIABLE_productName___RouterProtocol> router;
 
 @end

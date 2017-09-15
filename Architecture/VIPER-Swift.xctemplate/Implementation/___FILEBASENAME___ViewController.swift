@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewProtocol {
+class ___VARIABLE_productName___ViewController: UIViewController, ___VARIABLE_productName___ViewProtocol {
 
-    var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput?
-    
+    var output: ___VARIABLE_productName___ViewOutput?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Notify presenter layer with ready state.
         self.output?.viewReadyForInteraction()
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -27,7 +27,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBAS
         // You can forward these method to interactor through presenter or
         // perform subscribe via notification center inside interactor.
     }
-    
+
 
     /*
     // MARK: - Navigation

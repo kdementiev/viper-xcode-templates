@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "___FILEBASENAMEASIDENTIFIER___PresenterProtocol.h"
+#import "___VARIABLE_productName___PresenterProtocol.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Presenter : NSObject<___FILEBASENAMEASIDENTIFIER___PresenterProtocol>
+@interface ___VARIABLE_productName___Presenter : NSObject<___VARIABLE_productName___PresenterProtocol>
 
 @end

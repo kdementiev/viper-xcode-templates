@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "___FILEBASENAMEASIDENTIFIER___RouterProtocol.h"
+#import "___VARIABLE_productName___RouterProtocol.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Router : NSObject<___FILEBASENAMEASIDENTIFIER___RouterProtocol>
+@interface ___VARIABLE_productName___Router : NSObject<___VARIABLE_productName___RouterProtocol>
 
 @end
