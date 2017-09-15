@@ -8,6 +8,6 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol {
+class ___VARIABLE_productName___Router: ___VARIABLE_productName___RouterProtocol {
     weak var viewController: UIViewController?
 }

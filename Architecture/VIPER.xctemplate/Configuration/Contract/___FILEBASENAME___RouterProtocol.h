@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@protocol ___FILEBASENAMEASIDENTIFIER___RouterProtocol <NSObject>
+@protocol ___VARIABLE_productName___RouterProtocol <NSObject>
 
 - (void)prepareWithViewController:(id)viewController;
 

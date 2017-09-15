@@ -8,8 +8,8 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorProtocol {
-    var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput?
+class ___VARIABLE_productName___Interactor: ___VARIABLE_productName___InteractorProtocol {
+    var output: ___VARIABLE_productName___InteractorOutput?
     
     func prepare() {
         

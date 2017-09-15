@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol ___FILEBASENAMEASIDENTIFIER___ModuleDelegate <NSObject>
+@protocol ___VARIABLE_productName___ModuleDelegate <NSObject>
 
 @end
 
-@protocol ___FILEBASENAMEASIDENTIFIER___ModuleProtocol <NSObject>
+@protocol ___VARIABLE_productName___ModuleProtocol <NSObject>
 
 @end

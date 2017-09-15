@@ -8,10 +8,10 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___ModuleInputProtocol: class {
+protocol ___VARIABLE_productName___ModuleInputProtocol: class {
     
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ModuleOutputProtocol: class {
+protocol ___VARIABLE_productName___ModuleOutputProtocol: class {
     
 }

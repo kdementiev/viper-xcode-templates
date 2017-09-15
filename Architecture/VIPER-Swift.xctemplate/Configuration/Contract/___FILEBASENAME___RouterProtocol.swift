@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___RouterProtocol: class {
+protocol ___VARIABLE_productName___RouterProtocol: class {
     
 }

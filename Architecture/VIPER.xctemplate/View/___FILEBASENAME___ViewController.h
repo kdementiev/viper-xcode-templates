@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "___FILEBASENAMEASIDENTIFIER___ViewProtocol.h"
+#import "___VARIABLE_productName___ViewProtocol.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ViewController : UIViewController<___FILEBASENAMEASIDENTIFIER___ViewProtocol>
+@interface ___VARIABLE_productName___ViewController : UIViewController<___VARIABLE_productName___ViewProtocol>
 
 @end

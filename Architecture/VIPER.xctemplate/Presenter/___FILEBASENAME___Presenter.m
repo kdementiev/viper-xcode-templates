@@ -6,9 +6,9 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAMEASIDENTIFIER___Presenter.h"
+#import "___VARIABLE_productName___Presenter.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Presenter
+@implementation ___VARIABLE_productName___Presenter
 
 @synthesize view;
 @synthesize interactor;

@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol ___FILEBASENAMEASIDENTIFIER___InteractorDelegate <NSObject>
+@protocol ___VARIABLE_productName___InteractorDelegate <NSObject>
 @end
 
-@protocol ___FILEBASENAMEASIDENTIFIER___InteractorProtocol <NSObject>
-@property (nonatomic, weak) id<___FILEBASENAMEASIDENTIFIER___InteractorDelegate> output;
+@protocol ___VARIABLE_productName___InteractorProtocol <NSObject>
+@property (nonatomic, weak) id<___VARIABLE_productName___InteractorDelegate> output;
 @end

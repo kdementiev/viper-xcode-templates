@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "___FILEBASENAMEASIDENTIFIER___InteractorProtocol.h"
+#import "___VARIABLE_productName___InteractorProtocol.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___Interactor : NSObject<___FILEBASENAMEASIDENTIFIER___InteractorProtocol>
+@interface ___VARIABLE_productName___Interactor : NSObject<___VARIABLE_productName___InteractorProtocol>
 
 @end

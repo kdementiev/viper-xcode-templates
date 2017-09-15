@@ -6,9 +6,9 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAMEASIDENTIFIER___Interactor.h"
+#import "___VARIABLE_productName___Interactor.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___Interactor
+@implementation ___VARIABLE_productName___Interactor
 
 @synthesize output;
 

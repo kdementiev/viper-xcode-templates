@@ -7,26 +7,26 @@
 //
 
 
-#import "___FILEBASENAMEASIDENTIFIER___ModuleConfigurator.h"
+#import "___VARIABLE_productName___ModuleConfigurator.h"
 
 
-#import "___FILEBASENAMEASIDENTIFIER___Interactor.h"
-#import "___FILEBASENAMEASIDENTIFIER___Presenter.h"
-#import "___FILEBASENAMEASIDENTIFIER___Router.h"
+#import "___VARIABLE_productName___Interactor.h"
+#import "___VARIABLE_productName___Presenter.h"
+#import "___VARIABLE_productName___Router.h"
 
 
-@implementation ___FILEBASENAMEASIDENTIFIER___ModuleContainer
+@implementation ___VARIABLE_productName___ModuleContainer
 @end
 
 
-@implementation ___FILEBASENAMEASIDENTIFIER___ModuleConfigurator
+@implementation ___VARIABLE_productName___ModuleConfigurator
 
-+ (___FILEBASENAMEASIDENTIFIER___ModuleContainer *)configureteModuleWithView:(id<___FILEBASENAMEASIDENTIFIER___ViewProtocol>)view delegate:(id<___FILEBASENAMEASIDENTIFIER___ModuleDelegate>)delegate {
++ (___VARIABLE_productName___ModuleContainer *)configureteModuleWithView:(id<___VARIABLE_productName___ViewProtocol>)view delegate:(id<___VARIABLE_productName___ModuleDelegate>)delegate {
 
     //
-    ___FILEBASENAMEASIDENTIFIER___Interactor *interactor = [___FILEBASENAMEASIDENTIFIER___Interactor new];
-    ___FILEBASENAMEASIDENTIFIER___Router *router = [___FILEBASENAMEASIDENTIFIER___Router new];
-    ___FILEBASENAMEASIDENTIFIER___Presenter *presenter = [___FILEBASENAMEASIDENTIFIER___Presenter new];
+    ___VARIABLE_productName___Interactor *interactor = [___VARIABLE_productName___Interactor new];
+    ___VARIABLE_productName___Router *router = [___VARIABLE_productName___Router new];
+    ___VARIABLE_productName___Presenter *presenter = [___VARIABLE_productName___Presenter new];
 
     presenter.output = delegate;
     presenter.view = view;
@@ -37,9 +37,9 @@
     interactor.output = presenter;
 
     // Prepare module container.
-    ___FILEBASENAMEASIDENTIFIER___ModuleContainer *moduleContainer = [___FILEBASENAMEASIDENTIFIER___ModuleContainer new];
+    ___VARIABLE_productName___ModuleContainer *moduleContainer = [___VARIABLE_productName___ModuleContainer new];
 
-    moduleContainer.moduleViewController = (UIViewController<___FILEBASENAMEASIDENTIFIER___ViewProtocol> *)view;
+    moduleContainer.moduleViewController = (UIViewController<___VARIABLE_productName___ViewProtocol> *)view;
     moduleContainer.moduleInterface = presenter;
 
     return moduleContainer;

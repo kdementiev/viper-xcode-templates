@@ -6,13 +6,13 @@
 //___COPYRIGHT___
 //
 
-#import "___FILEBASENAMEASIDENTIFIER___ViewController.h"
+#import "___VARIABLE_productName___ViewController.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ViewController ()
+@interface ___VARIABLE_productName___ViewController ()
 
 @end
 
-@implementation ___FILEBASENAMEASIDENTIFIER___ViewController
+@implementation ___VARIABLE_productName___ViewController
 
 @synthesize output;
 

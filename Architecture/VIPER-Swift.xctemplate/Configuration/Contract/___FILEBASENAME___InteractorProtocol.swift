@@ -8,13 +8,13 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorOutput: class {
-    
+protocol ___VARIABLE_productName___InteractorOutput: class {
+
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___InteractorProtocol: class {
-    weak var output: ___FILEBASENAMEASIDENTIFIER___InteractorOutput? { get set }
-    
+protocol ___VARIABLE_productName___InteractorProtocol: class {
+    weak var output: ___VARIABLE_productName___InteractorOutput? { get set }
+
     /**
         Method offered to perform initial preparations inside interactor.
      */

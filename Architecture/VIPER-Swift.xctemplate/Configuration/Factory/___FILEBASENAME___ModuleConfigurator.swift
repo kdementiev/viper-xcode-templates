@@ -8,16 +8,16 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ModuleConfigurator {
+class ___VARIABLE_productName___ModuleConfigurator {
     
-    static func configurateModule(view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol?, delegate: ___FILEBASENAMEASIDENTIFIER___ModuleOutputProtocol?)
-        -> (view: UIViewController?, module: ___FILEBASENAMEASIDENTIFIER___ModuleInputProtocol?) {
+    static func configurateModule(view: ___VARIABLE_productName___ViewProtocol?, delegate: ___VARIABLE_productName___ModuleOutputProtocol?)
+        -> (view: UIViewController?, module: ___VARIABLE_productName___ModuleInputProtocol?) {
         
         assert(view != nil, "Please, provide view instance.")
         
-        let interactor = ___FILEBASENAMEASIDENTIFIER___Interactor()
-        let presenter = ___FILEBASENAMEASIDENTIFIER___Presenter()
-        let router = ___FILEBASENAMEASIDENTIFIER___Router()
+        let interactor = ___VARIABLE_productName___Interactor()
+        let presenter = ___VARIABLE_productName___Presenter()
+        let router = ___VARIABLE_productName___Router()
         
         view?.output = presenter
         

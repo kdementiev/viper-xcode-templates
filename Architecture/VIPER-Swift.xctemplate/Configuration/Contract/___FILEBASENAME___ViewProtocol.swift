@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewOutput: class {
+protocol ___VARIABLE_productName___ViewOutput: class {
     
     /**
         Called when view loaded and ready for data.
@@ -16,7 +16,7 @@ protocol ___FILEBASENAMEASIDENTIFIER___ViewOutput: class {
     func viewReadyForInteraction()
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewProtocol: class {
-    var output: ___FILEBASENAMEASIDENTIFIER___ViewOutput? { get set }
+protocol ___VARIABLE_productName___ViewProtocol: class {
+    var output: ___VARIABLE_productName___ViewOutput? { get set }
     
 }
