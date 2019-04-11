@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import UIKit
@@ -28,7 +28,6 @@ class ___VARIABLE_productName___ViewController: UIViewController, ___VARIABLE_pr
         // perform subscribe via notification center inside interactor.
     }
 
-
     /*
     // MARK: - Navigation
 
@@ -38,5 +37,4 @@ class ___VARIABLE_productName___ViewController: UIViewController, ___VARIABLE_pr
         // Pass the selected object to the new view controller.
     }
     */
-
 }
